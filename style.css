@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+   
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    gap: 2px;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 100vh;
+    
+
+}
+
+.head-section {
+    display: flex;
+    
+             
+    padding: 10px;
+
+    background-color: teal;    
+    
+}
+
+.logo {
+   max-width: 100%; width: 80px; height: 80px;
+
+ }
+
+.navi{
+    float: right;
+}
+.navi li{
+    float: left;
+    text-align: center;
+    width: 120px;
+    height: 70px;
+}
+
+.main-content {
+    background-color: green;
+}
+
+.hero-section {
+   
+    text-align: center;
+}
+
+img {
+   max-width: 100%; width: 100%; height: 200px;
+
+ }
+
+ .about h2{
+    text-align: center;
+ }
+
+ .service {
+    text-align: center;
+ }
+
+ 
+
+.contact {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 2px 1px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+
+.footer-section {
+    background-color: powderblue;
+}
